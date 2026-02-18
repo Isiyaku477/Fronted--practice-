@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #222;
+  color: white;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.sidebar.active {
+  width: 70px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 260px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 40px;
+}
