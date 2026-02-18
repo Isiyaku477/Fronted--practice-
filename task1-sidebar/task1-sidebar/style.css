@@ -44,3 +44,17 @@ body {
 .content {
   padding: 40px;
 }
+@media (max-width: 600px) {
+  .sidebar {
+    position: fixed;
+    left: -250px;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .toggle-btn {
+    left: 20px;
+  }
+}
